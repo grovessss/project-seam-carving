@@ -47,7 +47,7 @@ g++ seam-carving.cpp -o seam-carving $(pkg-config --cflags --libs opencv) -std=c
 
 对于一个灰度图像I，设它灰度值为i的点共有pi个，则整幅图像的熵值定义为
 
-<img src="/Users/lihua/Desktop/未命名文件夹2/screenshot/entropy.png" alt="entropy" style="zoom:25%;" />
+<img src="screenshot/entropy.png" alt="entropy" style="zoom:25%;" />
 
 对图中每个点，取图像周围一个窗口（window），对窗口内的子图求熵值，即得到这点的局部熵值。
 
