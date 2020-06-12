@@ -1,23 +1,27 @@
 Study of Seam Carving 
-Ëã·¨Éè¼ÆÓë·ÖÎöProject
-¶Ôseam carvingËã·¨µÄÒ»Ğ©Ì½¾¿Óë¸Ä½ø
-²Î¿¼ÄÚÈİ£º
-[1] Shai Avidan and Ariel Shamir, ¡°Seam carving for contentaware image resizing,¡± ACM Transactions on Graphics (SIGGRAPH), vol. 26, no. 3, pp. 10, July 2007.
-[2] Michael Rubinstein, Ariel Shamir, and Shai Avidan, ¡°Improved seam carving for video retargeting,¡± ACM Transactions on Graphics (SIGGRAPH), vol. 27, 2008.
+ç®—æ³•è®¾è®¡ä¸åˆ†æProject
+å¯¹seam carvingç®—æ³•çš„ä¸€äº›æ¢ç©¶ä¸æ”¹è¿›
+
+å‚è€ƒå†…å®¹ï¼š
+[1] Shai Avidan and Ariel Shamir, â€œSeam carving for contentaware image resizing,â€ ACM Transactions on Graphics (SIGGRAPH), vol. 26, no. 3, pp. 10, July 2007.
+[2] Michael Rubinstein, Ariel Shamir, and Shai Avidan, â€œImproved seam carving for video retargeting,â€ ACM Transactions on Graphics (SIGGRAPH), vol. 27, 2008.
 [3] Achanta, Radhakrishna, et al. Frequency-tuned salient region detection, in:CVPR 2009. IEEE Conference on Computer Vision and Pattern Recognition, 2009. IEEE, 2009.
 [4] Achanta, Radhakrishna, Sabine Susstrunk. Saliency detection for contentaware image resizing, in: Sixteenth IEEE International Conference on Image Processing (ICIP), 2009. IEEE, 2009.
 [5] Chen Y, Pan Y, Song M, et al. Improved seam carving combining with 3D saliency for image retargeting[J]. Neurocomputing, 2015, 151: 645-653.
-[6]https://www.researchgate.net/publication/228383984_Seam_Carving_with_Improved_Edge_Preservation
+[6] Johannes Kiess, Stephan Kopf, Benjamin Guthier, and Wolfgang Effelsberg. (2010). Seam Carving with Improved Edge Preservation. Proceedings of SPIE - The International Society for Optical Engineering. 7542. 10.1117/12.840263. 
 
-ÔËĞĞ»·¾³£º
-Visual studio, opencv¿â
-»·¾³ÅäÖÃ£º²Î¿¼Á´½Óhttps://www.cnblogs.com/YiYA-blog/p/10296224.html
+è¿è¡Œç¯å¢ƒï¼š
+Visual studio, opencvåº“
 
-Ö÷ÒªÄÚÈİ£º
-1¡¢ ÊµÏÖ¡¢²âÊÔ²¢±È½ÏÁËÌİ¶È¡¢ìØ¡¢ÏÔÖøĞÔ¡¢Éî¶ÈÍ¼µÈÄÜÁ¿º¯Êı
+ç¯å¢ƒé…ç½®ï¼š
+å‚è€ƒé“¾æ¥ https://www.cnblogs.com/YiYA-blog/p/10296224.html
 
-2¡¢ Ôö¼ÓÁË¶ÔÌØÊâÎïÌå£¨Ö±ÏßºÍÈËÁ³£©µÄ¼ì²âºÍ±£»¤£¬¼õÉÙÁËÔÚ´ó·ù¶È²Ã¼ôµÄÇé¿öÏÂÖ±Ïß»òÈËÁ³±»Å¤ÇúµÄ¸ÅÂÊ¡£
+ä¸»è¦å†…å®¹ï¼š
 
-3¡¢ ÀûÓÃ²»Í¬µÄÊµÏÖ·½Ê½ÊµÏÖseam carving£¬²¢±È½ÏÊµÏÖµÄĞ§¹ûºÍÊ±¼äĞ§ÂÊ¡£
+1ã€ å®ç°ã€æµ‹è¯•å¹¶æ¯”è¾ƒäº†æ¢¯åº¦ã€ç†µã€æ˜¾è‘—æ€§ã€æ·±åº¦å›¾ç­‰èƒ½é‡å‡½æ•°ã€‚
 
-(¾ßÌå²Ù×÷·½Ê½¼û¸÷ÎÄ¼ş¼ĞÄÚËµÃ÷)
+2ã€ å¢åŠ äº†å¯¹ç‰¹æ®Šç‰©ä½“ï¼ˆç›´çº¿å’Œäººè„¸ï¼‰çš„æ£€æµ‹å’Œä¿æŠ¤ï¼Œå‡å°‘äº†åœ¨å¤§å¹…åº¦è£å‰ªçš„æƒ…å†µä¸‹ç›´çº¿æˆ–äººè„¸è¢«æ‰­æ›²çš„æ¦‚ç‡ã€‚
+
+3ã€ åˆ©ç”¨ä¸åŒçš„å®ç°æ–¹å¼å®ç°seam carvingï¼Œå¹¶æ¯”è¾ƒå®ç°çš„æ•ˆæœå’Œæ—¶é—´æ•ˆç‡ã€‚
+
+(å…·ä½“æ“ä½œæ–¹å¼è§å„æ–‡ä»¶å¤¹å†…è¯´æ˜)
