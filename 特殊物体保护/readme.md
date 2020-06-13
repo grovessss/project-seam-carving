@@ -1,5 +1,7 @@
 特殊物体的检测和保护
 
+代码 `special_object_preservation.cpp` 基于 https://github.com/davidshower/seam-carving 中 seam carving 的基础实现（`seam-carving-original.cpp`）。
+
 （1）直线检测保护
 
 ​		参考论文：[Seam Carving with Improved Edge Preservation](https://www.researchgate.net/publication/228383984_Seam_Carving_with_Improved_Edge_Preservation)
@@ -10,10 +12,13 @@
 
 （2）人脸检测保护
 
-​		真人人脸：使用opencv的人脸分类器haarcascade_frontalface_default.xml
+​		真人人脸：使用 opencv 库中的人脸分类器 haarcascade_frontalface_default.xml
 
-​		动漫人脸：使用基于opencv的训练好的人脸分类器lbpcascade_animeface.xml
+​						（需要根据 opencv 库的安装路径，修改代码中该分类器的路径位置）
 
-​							分类器GitHub链接：[A Face detector for anime/manga using OpenCV](https://github.com/nagadomi/lbpcascade_animeface)	
 
-​							需要先将该分类器下载到本地，再修改代码中该分类器的路径位置。					
+​		动漫人脸：使用基于 opencv 的训练好的人脸分类器 lbpcascade_animeface.xml
+
+​							分类器 GitHub 链接：[A Face detector for anime/manga using OpenCV](https://github.com/nagadomi/lbpcascade_animeface)	
+
+​						（需要先将该分类器下载到本地，再修改代码中该分类器的路径位置）					
