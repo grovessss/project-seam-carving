@@ -1,6 +1,0 @@
-﻿  seam-carving.cpp
-c:\users\张栩\desktop\seam-carving.cpp(99): warning C4101: “a”: 未引用的局部变量
-c:\users\张栩\desktop\seam-carving.cpp(99): warning C4101: “b”: 未引用的局部变量
-c:\users\张栩\desktop\seam-carving.cpp(102): warning C4101: “max_val”: 未引用的局部变量
-c:\users\张栩\desktop\seam-carving.cpp(99): warning C4101: “c”: 未引用的局部变量
-  Project1.vcxproj -> C:\Users\张栩\Desktop\Project1\x64\Debug\Project1.exe
